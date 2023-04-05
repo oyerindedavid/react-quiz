@@ -1,0 +1,21 @@
+.answers{
+    display: flex;
+    justify-self: start;
+}
+
+.option:hover{
+    background-color: var(--selected-answer-backgroundcolor);
+}
+
+.option{
+    display: inline-block;
+    padding: 5px 5px;
+    font-family: var(--option-font);
+    font-size: 12px;
+    font-weight: 500;
+    background-color: transparent;
+    cursor: pointer;
+    margin: 3px 5px;
+    border-radius: 8px;
+    border: 1px solid black;
+}

@@ -1,0 +1,27 @@
+.content{
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    align-items: center;
+  }
+  
+.info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title{
+    font-size: 38px;
+}
+
+.quiz-button{
+    display: flex;
+    margin-top: 20px;
+    padding: 20px 40px;
+    color: #ffff;
+    font-size: 16px;
+    border-radius: 15px;
+    background-color: #4D5B9E;
+    justify-self: center;
+}
